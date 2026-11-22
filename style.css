@@ -1,0 +1,62 @@
+#shark{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+#ng1{
+    left:50px; top:50px;
+    position: absolute;
+    animation-name: D1;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation:D1 30s linear infinite;
+}
+#ng2{
+    left:900px; top:400px;
+    position: absolute;
+    animation-name: D2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#ng3
+{
+    left:600px; top:250px;
+    position: absolute;
+    animation-name: D3;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#cavang{
+    left:400px; top:150px;
+    position: absolute;
+    animation-name: C1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#rua{
+    position:absolute;
+    width:80px;
+    animation-name:R1;
+    animation-duration:50s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+#bong1 {
+    position: absolute;
+    left: 75px; /* Chỉnh tăng/giảm số này để khớp đúng miệng thợ lặn */
+    top: 15px;  /* Chỉnh tăng/giảm số này để khớp độ cao của miệng */
+    animation: bubble 2.5s ease-out infinite;
+}
